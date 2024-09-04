@@ -1,9 +1,0 @@
-include:
-  - https://gitlab.com/kalilinux/tools/kali-ci-pipeline/raw/master/recipes/kali.yml
-
-# We already have jenkins tests to check installability of our
-# meta-packages and with the big number of packages we depend on,
-# we only risk to discover problems in other packages and not
-# in kali-meta...
-variables:
-  SALSA_CI_DISABLE_PIUPARTS: 1
