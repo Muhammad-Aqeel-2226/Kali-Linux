@@ -1,0 +1,2578 @@
+kali-meta (2024.4.0) kali-dev; urgency=medium
+
+  [ Arnaud Rebillout ]
+  * Revert "Drop backdoor-factory for armel/armhf (t64)"
+  * Introduce a series of nethunter metapackages
+  * Trim kali-nethunter-core a bit
+  * Add proxmark3 to the kali-nethunter-full packages
+  * Fix some Lintian warnings
+
+  [ Daniel Ruiz de Alegría ]
+  * Clean up some more libproxy transitional packages
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Wed, 04 Sep 2024 21:46:50 +0700
+
+kali-meta (2024.3.3) kali-dev; urgency=medium
+
+  * Goshs is not available on armel
+  * Obsidian is only available for amd64 and arm64
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Tue, 13 Aug 2024 15:02:16 +0700
+
+kali-meta (2024.3.2) kali-dev; urgency=medium
+
+  * Add obsidian to kali-linux-everything
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Tue, 13 Aug 2024 09:58:34 +0200
+
+kali-meta (2024.3.1) kali-dev; urgency=medium
+
+  * Add sippts to kali-linux-everything
+  * Add goshs to kali-linux-everything
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Mon, 12 Aug 2024 08:31:20 +0200
+
+kali-meta (2024.3.0) kali-dev; urgency=medium
+
+  * Add netexec to kali-linux-everything
+  * Add netscanner and sqlmc to kali-linux-everything
+  * Move netexec to kali-linux-default
+  * Replace crackmapexec with netexec in top10 metapackage
+  * Add graudit and gsocket to kali-linux-everything
+  * Add sprayhound, mxcheck & hekatomb to kali-linux-everything
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Mon, 22 Jul 2024 11:34:47 +0200
+
+kali-meta (2024.2.10) kali-dev; urgency=medium
+
+  * Add coercer and mitm6 to kali-linux-everything
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Fri, 24 May 2024 09:01:00 +0200
+
+kali-meta (2024.2.9) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Add sploitscan to kali-linux-everything
+  * Replace pyinstaller with correct package name python3-pyinstaller
+
+  [ Sophie Brun ]
+  * Revert "Drop proxmark3 for armel/armhf (t64)"
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Wed, 22 May 2024 12:03:54 +0200
+
+kali-meta (2024.2.8) kali-dev; urgency=medium
+
+  * Replace florence with onboard in kali-linux-nethunter
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Sun, 19 May 2024 15:14:30 +0700
+
+kali-meta (2024.2.7) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Add sickle-tool to kali-linux-everything
+
+  [ Arnaud Rebillout ]
+  * gowitness is not available on armel
+  * u-boot-amlogic -> u-boot-amlogic-binaries
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Sat, 18 May 2024 21:33:19 +0700
+
+kali-meta (2024.2.6) kali-dev; urgency=medium
+
+  * Drop naabu for armel/armhf (t64)
+  * Drop proxmark3 for armel/armhf (t64)
+  * Drop armitage for armel/armhf (t64)
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Wed, 15 May 2024 11:24:24 +0700
+
+kali-meta (2024.2.5) kali-dev; urgency=medium
+
+  [ Steev Klimaszewski ]
+  * d/upstream: Add upstream metadata
+
+  [ Arnaud Rebillout ]
+  * Add xxd to kali-linux-headless
+  * Drop backdoor-factory for armel/armhf (t64)
+  * Drop android-sdk for armel/armhf (t64)
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Tue, 14 May 2024 09:47:55 +0700
+
+kali-meta (2024.2.4) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Add pyinstaller to kali-linux-everything
+  * Add getsploit, gowitness & vopono to kali-linux-everything
+  * Add horst to kali-linux-everything
+
+  [ Arnaud Rebillout ]
+  * Drop python2 for armel and armhf
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Fri, 10 May 2024 22:55:25 +0700
+
+kali-meta (2024.2.3) kali-dev; urgency=medium
+
+  * Add feroxbuster for arm64 too
+  * Add autorecon to kali-linux-everything
+  * Add tools pyinstxtractor and waybackpy to kali-linux-everything
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Mon, 22 Apr 2024 10:05:55 +0200
+
+kali-meta (2024.2.2) kali-dev; urgency=medium
+
+  * Add python3-dploot
+  * pspy is only available on i386 and amd64
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 08 Apr 2024 17:15:02 +0200
+
+kali-meta (2024.2.1) kali-dev; urgency=medium
+
+  * ligolo-ng is only available on amd64 and arm64
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 28 Mar 2024 10:23:14 +0100
+
+kali-meta (2024.2.0) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Add pspy to kali-linux-everything
+  * Add sharpshooter to kali-linux-everything
+  * Add ligolo-ng to kali-linux-everything
+
+  [ Sophie Brun ]
+  * Remove rtlsdr-scanner
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 26 Mar 2024 11:23:25 +0100
+
+kali-meta (2024.1.1) kali-dev; urgency=medium
+
+  * Replace transitional package p7zip-full with 7zip
+  * Replace transitional package pev with readpe
+  * Add above to kali-tools-sniffing-spoofing
+  * Add snort to kali-linux-everything
+  * Use loupe as image viewer for gnome
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Fri, 16 Feb 2024 12:00:17 +0100
+
+kali-meta (2024.1.0) kali-dev; urgency=medium
+
+  [ Steev Klimaszewski ]
+  * Add blue-hydra to bluetooth metapackage
+
+  [ Arnaud Rebillout ]
+  * Drop kali-debtags
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Thu, 11 Jan 2024 15:17:13 +0700
+
+kali-meta (2023.4.7) kali-dev; urgency=medium
+
+  [ Sophie Brun ]
+  * Add opentaxii in kali-linux-everything
+
+  [ Steev Klimaszewski ]
+  * Update eyewitness since it's available on arm64
+
+ -- Steev Klimaszewski <steev@kali.org>  Wed, 06 Dec 2023 14:00:48 -0600
+
+kali-meta (2023.4.6) kali-dev; urgency=medium
+
+  * Remove prism
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Tue, 28 Nov 2023 11:35:11 +0700
+
+kali-meta (2023.4.5) kali-dev; urgency=medium
+
+  * Add new packages h8mail, reconspider and sn0int
+  * spire only available on amd64 and arm64
+  * havoc only on amd64
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 21 Nov 2023 10:11:37 +0100
+
+kali-meta (2023.4.4) kali-dev; urgency=medium
+
+  [ Sophie Brun ]
+  * Add packages raven and spire
+  * Add new packages portspoof and passdetective
+
+  [ Daniel Ruiz de Alegría ]
+  * Add havoc to kali-linux-everything
+  * Add enum4linux-ng to kali-linux-everything
+  * Add qt6ct for qt6 theme support
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Wed, 15 Nov 2023 16:45:09 +0100
+
+kali-meta (2023.4.3) kali-dev; urgency=medium
+
+  * Add exiflooter to kali-linux-everything
+  * Add dbus-x11 to all desktops
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Wed, 11 Oct 2023 08:19:28 +0200
+
+kali-meta (2023.4.2) kali-dev; urgency=medium
+
+  * Mention that rling is amd64 only
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Wed, 04 Oct 2023 14:10:25 +0700
+
+kali-meta (2023.4.1) kali-dev; urgency=medium
+
+  * Make sure that tzdata-legacy is installed
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Wed, 04 Oct 2023 14:03:45 +0700
+
+kali-meta (2023.4.0) kali-dev; urgency=medium
+
+  [ Sophie Brun ]
+  * Add new tools rling and sigma
+  * New package is sigma-cli, not sigma
+
+  [ Daniel Ruiz de Alegría ]
+  * Replace unmaintained policykit-1-gnome with mate-polkit
+  * Update kali-desktop-gnome
+  * Remove canberra packages from kali-desktop-*
+  * Add catfish and gnome-disk-utility to kali-desktop-gnome recommends
+  * Ensure pavucontrol gets installed in kali-desktop-xfce
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Mon, 02 Oct 2023 13:39:27 +0200
+
+kali-meta (2023.3.5) kali-dev; urgency=medium
+
+  * Remove plecost from metapackages
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Mon, 14 Aug 2023 19:03:58 +0700
+
+kali-meta (2023.3.4) kali-dev; urgency=medium
+
+  * Add kali-autopilot to kali-tools-identify
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Mon, 14 Aug 2023 13:26:30 +0200
+
+kali-meta (2023.3.3) kali-dev; urgency=medium
+
+  [ Sophie Brun ]
+  * Add kustomize and cri-tools in kali-meta
+  * Add unblob in kali-everything
+
+  [ Daniel Ruiz de Alegría ]
+  * Add villain to kali-linux-everything
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 10 Aug 2023 13:58:27 +0200
+
+kali-meta (2023.3.2) kali-dev; urgency=medium
+
+  [ Arszilla ]
+  * Update dependencies for kali-desktop-i3
+
+  [ Arnaud Rebillout ]
+  * Bump constraint for i3-dotfiles
+  * Add a readme with diagrams
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Tue, 08 Aug 2023 15:33:03 +0700
+
+kali-meta (2023.3.1) kali-dev; urgency=medium
+
+  * Add imhex for arch amd64 and arm64
+  * Replace king-phisher with gophish
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 30 Jun 2023 11:07:30 +0200
+
+kali-meta (2023.3.0) kali-dev; urgency=medium
+
+  [ Sophie Brun ]
+  * Add new package trivy
+  * Replace transitional package tftp with tftp-hpa
+
+  [ Daniel Ruiz de Alegría ]
+  * Fix gnome-terminal not working as root-terminal
+  * Remove dbus-x11 from kali-desktop-gnome
+
+  [ Gamb1t ]
+  * Add certipy-ad to headless installation
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 19 Jun 2023 15:21:45 +0200
+
+kali-meta (2023.2.12) kali-dev; urgency=medium
+
+  * Depend on pipewire-audio metapackage
+  * Revert "Depend on pipewire-audio metapackage"
+  * Drop dependency on pipewire-alsa
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Thu, 25 May 2023 09:56:10 +0700
+
+kali-meta (2023.2.11) kali-dev; urgency=medium
+
+  * Upgrade pipewire/wireplumber from Recommends to Depends
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Tue, 23 May 2023 16:06:54 +0700
+
+kali-meta (2023.2.10) kali-dev; urgency=medium
+
+  [ Ben Wilson ]
+  * Add  kali-system-cli to kali-linux-headless
+
+  [ g0t mi1k ]
+  * Add kali-linux-wsl
+
+  [ Arnaud Rebillout ]
+  * Drop kali-defaults dependency from kali-linux-nethunter
+  * Make kali-desktop-xfce conflic with pipewire-media-session
+
+  [ Sophie Brun ]
+  * Add new packages cosign, syft, terraform, calicoctl, pack2 and evilginx2
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 16 May 2023 16:52:32 +0200
+
+kali-meta (2023.2.9) kali-dev; urgency=medium
+
+  * tetragon only for arch 64 bits and slimtoolkit not available on i386
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 11 May 2023 13:48:56 +0200
+
+kali-meta (2023.2.8) kali-dev; urgency=medium
+
+  * Limit ddrescue to only 64bit architectures.
+
+ -- Steev Klimaszewski <steev@kali.org>  Wed, 10 May 2023 16:51:26 -0500
+
+kali-meta (2023.2.7) kali-dev; urgency=medium
+
+  [ Sophie Brun ]
+  * dbeaver is now available on arm64 too
+  * Add humble in kali-everything
+  * Add cilium-cli, hubble, slimtoolkit and tetragon
+    in kali-linux-everything
+
+  [ Steev Klimaszewski ]
+  * Don't install shellnoob on arm64.
+  * d/watch: Remove, unneeded in native packages.
+  * Update standards version to 4.6.2, no changes needed.
+  * Prepare for Release
+
+ -- Steev Klimaszewski <steev@kali.org>  Wed, 10 May 2023 10:51:03 -0500
+
+kali-meta (2023.2.6) kali-dev; urgency=medium
+
+  * Recommend pipewire-alsa and libspa-0.2-bluetooth for XFCE desktop
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Tue, 25 Apr 2023 15:48:34 +0700
+
+kali-meta (2023.2.5) kali-dev; urgency=medium
+
+  [ Sophie Brun ]
+  * Add python3-wsgidav and eksctl in kali-everything
+
+  [ Arnaud Rebillout ]
+  * List pipewire-pulse alongside wireplumber
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Fri, 07 Apr 2023 10:20:11 +0700
+
+kali-meta (2023.2.4) kali-dev; urgency=medium
+
+  * Update kali-desktop-i3
+  * Remove kali-linux-firmware from kali-linux-headless
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Fri, 31 Mar 2023 10:00:52 +0700
+
+kali-meta (2023.2.3) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Add tiling assistant to kali-desktop-gnome
+
+  [ Arnaud Rebillout ]
+  * Add gtkhash's as a file manager extension (for xfce, mate)
+  * Recommend wireplumber in kali-desktop-xfce
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Thu, 30 Mar 2023 10:54:37 +0700
+
+kali-meta (2023.2.2) kali-dev; urgency=medium
+
+  [ Arszilla ]
+  * Replace scrot with maim
+  * Add xdotool to kali-desktop-i3
+  * Add xclip to kali-i3-dotfiles
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Wed, 22 Mar 2023 12:27:38 +0700
+
+kali-meta (2023.2.1) kali-dev; urgency=medium
+
+  * Add rz-ghidra along rizin-cutter
+  * Merge kali-desktop-i3 and kali-desktop-i3-gaps
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Wed, 22 Mar 2023 11:48:30 +0700
+
+kali-meta (2023.1.12) kali-dev; urgency=medium
+
+  * Demote lime-forensics to Recommended.
+
+ -- Steev Klimaszewski <steev@kali.org>  Sat, 18 Mar 2023 18:28:43 -0500
+
+kali-meta (2023.1.11) kali-dev; urgency=medium
+
+  * Remove exploitdb-papers from kali-tools-identify
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Fri, 10 Mar 2023 16:03:53 +0700
+
+kali-meta (2023.1.10) kali-dev; urgency=medium
+
+  * Add kubernetes-helm and redeye to kali-linux-everything
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Fri, 03 Mar 2023 20:16:41 +0100
+
+kali-meta (2023.1.9) kali-dev; urgency=medium
+
+  * Remove starkiller: it is now included in powershell-empire
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 03 Mar 2023 09:35:19 +0100
+
+kali-meta (2023.1.8) kali-dev; urgency=medium
+
+  [ Steev Klimaszewski ]
+  * Don't limit ferret-sidejack to i386
+
+  [ Arnaud Rebillout ]
+  * Add dependency on firmware-ath9k-htc where needed
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Tue, 28 Feb 2023 11:30:16 +0700
+
+kali-meta (2023.1.7) kali-dev; urgency=medium
+
+  * Replace smali with libsmali-java
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Mon, 27 Feb 2023 11:00:18 +0700
+
+kali-meta (2023.1.6) kali-dev; urgency=medium
+
+  [ Arnaud Rebillout ]
+  * Fix Lintian's depends-on-obsolete-package: libncurses5-dev => libncurses-dev
+
+  [ Daniel Ruiz de Alegría ]
+  * Add kali purple tools to kali-linux-everything
+  * Add correct wallpapers package in kali-linux-everything
+  * Fix control file
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Wed, 22 Feb 2023 16:26:59 +0100
+
+kali-meta (2023.1.5) kali-dev; urgency=medium
+
+  * Remove armel for sprayingtoolkit because it requires mitmproxy
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 14 Feb 2023 14:36:27 +0100
+
+kali-meta (2023.1.4) kali-dev; urgency=medium
+
+  [ Ben Wilson ]
+  * Move ARM SBC to end
+  * Cleaner separation between types
+  * Create platform section
+  * Moved large & everything due to installer image
+  * Add comments for each entry, consistency with spacing
+  * Refresh package descriptions
+  * Spacing for firmware
+  * Extra comments regarding firmware on kali-linux-arm
+  * Fix EOL consistencies
+  * A-Z with packages
+  * Consistency with structure
+  * Update comments to be more verbose
+  * Better casing in comments
+  * Add missing packages to everything
+
+  [ Sophie Brun ]
+  * mitmproxy is no longer available on armel
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 13 Feb 2023 15:12:21 +0100
+
+kali-meta (2023.1.3) kali-dev; urgency=medium
+
+  [ Re4son ]
+  * Introduce kali-system-core
+  * Introduce kali-system-cli
+  * Introduce kali-system-gui
+  * Add defensive metapackages
+
+  [ Arnaud Rebillout ]
+  * Move the heaviest defensive deps to recommends
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Fri, 10 Feb 2023 17:31:45 +0700
+
+kali-meta (2023.1.2) kali-dev; urgency=medium
+
+  * Add xfce4-panel-profiles to kali-desktop-xfce
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Wed, 11 Jan 2023 11:28:54 +0100
+
+kali-meta (2023.1.1) kali-dev; urgency=medium
+
+  * Remove catfish from kali-desktop-xfce
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Wed, 21 Dec 2022 10:07:33 +0100
+
+kali-meta (2023.1.0) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Add python3-ldapdomaindump to kali-linux-everything
+
+  [ Sophie Brun ]
+  * Replace ipv6-toolkit with ipv6toolkit
+
+  [ Arnaud Rebillout ]
+  * Use dillo as the default web browser on armel
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Thu, 08 Dec 2022 08:19:53 +0700
+
+kali-meta (2022.4.11) kali-dev; urgency=medium
+
+  [ Steev Klimaszewski ]
+  * Add d/watch
+
+  [ Arnaud Rebillout ]
+  * Make sure Firefox is installed
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Fri, 25 Nov 2022 20:38:15 +0700
+
+kali-meta (2022.4.10) kali-dev; urgency=medium
+
+  * Add bloodhound.py to kali-linux-everything
+  * Add hak5-wifi-coconut to kali-linux-everything
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Fri, 18 Nov 2022 18:41:31 +0100
+
+kali-meta (2022.4.9) kali-dev; urgency=medium
+
+  * Add date settings in xfce
+  * Move fonts-noto-color-emoji to kali-desktop-defaults as 'Recommends'
+  * Update package
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Sun, 13 Nov 2022 13:59:55 +0100
+
+kali-meta (2022.4.8) kali-dev; urgency=medium
+
+  * Remove unmaintained gnome-shell-extension-proxyswitcher
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Mon, 26 Sep 2022 12:33:33 +0200
+
+kali-meta (2022.4.7) kali-dev; urgency=medium
+
+  [ Steev Klimaszewski ]
+  * fix kali-sbc-qualcomm dependencies
+  * fix kali-sbc-amlogic dependency
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Thu, 22 Sep 2022 19:45:33 +0200
+
+kali-meta (2022.4.6) kali-dev; urgency=medium
+
+  * Add missing comma in control file
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Wed, 21 Sep 2022 12:33:11 +0200
+
+kali-meta (2022.4.5) kali-dev; urgency=medium
+
+  [ Steev Klimaszewski ]
+  * Add kali-sbc metapackages
+
+  [ Arnaud Rebillout ]
+  * Replace radare2-cutter by rizin-cutter
+
+  [ Daniel Ruiz de Alegría ]
+  * Add new theme for gnome
+  * Replace gedit with gnome-text-editor for gnome desktop
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Mon, 19 Sep 2022 20:03:19 +0200
+
+kali-meta (2022.4.4) kali-dev; urgency=medium
+
+  [ Arszilla ]
+  * Add missing dependencies for kali-desktop-i3-gaps
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Fri, 02 Sep 2022 13:31:08 +0100
+
+kali-meta (2022.4.3) kali-dev; urgency=medium
+
+  [ Arszilla ]
+  * Fix typos in i3 and i3-gaps
+  * Add missing dependencies for kali-desktop-i3-gaps
+  * Remove libpulse0 from kali-desktop-i3-gaps
+  * Fix suckless-tools in kali-desktop-i3-gaps
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Fri, 19 Aug 2022 22:12:43 +0700
+
+kali-meta (2022.4.2) kali-dev; urgency=medium
+
+  * Drop pipewire-media-session recommendation
+  * Remove wmis as it breaks during installation (again)
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Tue, 16 Aug 2022 09:03:01 +0700
+
+kali-meta (2022.4.1) kali-dev; urgency=medium
+
+  * Add left out packages
+
+ -- Joseph O'Gorman <gamb1t@kali.org>  Fri, 12 Aug 2022 20:47:51 -0400
+
+kali-meta (2022.4.0) kali-dev; urgency=medium
+
+  * Remove obsolete tool: xprobe (upstream is dead and it doesn't work
+    correctly on recent systems)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 09 Aug 2022 14:12:18 +0200
+
+kali-meta (2022.3.12) kali-dev; urgency=medium
+
+  * Replace deprecated multilockscreen with betterlockscreen
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Tue, 02 Aug 2022 15:20:35 +0200
+
+kali-meta (2022.3.11) kali-dev; urgency=medium
+
+  * Replace depecrated faraday-client with faraday-cli
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 02 Aug 2022 11:30:43 +0200
+
+kali-meta (2022.3.10) kali-dev; urgency=medium
+
+  * defectdojo is only available on 3 arch
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 26 Jul 2022 09:57:31 +0200
+
+kali-meta (2022.3.9) kali-dev; urgency=medium
+
+  [ Sophie Brun ]
+  * Add new package defectdojo to kali-linux-everything
+
+  [ Arnaud Rebillout ]
+  * Recommend fuse3 in kali-linux-core & kali-linux-headless
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Sat, 23 Jul 2022 16:47:50 +0200
+
+kali-meta (2022.3.8) kali-dev; urgency=medium
+
+  [ NIBOUCHA Redouane ]
+  * Add proxmark3 (the RFID swiss-army tool) to kali-tools-rfid
+
+  [ Daniel Ruiz de Alegría ]
+  * Move powershell and recommended dependencies to kali-linux-headless
+  * Add exiftool to kali-linux-headless
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Mon, 11 Jul 2022 17:27:20 +0200
+
+kali-meta (2022.3.7) kali-dev; urgency=medium
+
+  * Remove conflicts from kali-desktop-xfce
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Thu, 23 Jun 2022 10:44:23 +0200
+
+kali-meta (2022.3.6) kali-dev; urgency=medium
+
+  * Add sprayingtoolkit to kali-linux-everything
+  * Add peass to kali-tools-vulnerability
+  * Replace florence virtual keyboard as we already use onboard on xfce
+  * Add onboard to kali-desktop-live to ensure a virtual keyboard
+  * Avoid installing desktop-base and tango-icon-theme in kali-desktop-xfce
+  * Remove old 'Conflics' for wireplumber in kali-desktop-core
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Tue, 21 Jun 2022 19:34:17 +0200
+
+kali-meta (2022.3.5) kali-dev; urgency=medium
+
+  [ Sophie Brun ]
+  * Add new package shellfire to kali-linux-everything
+
+  [ Daniel Ruiz de Alegría ]
+  * Add ruby-pedump to kali-linux-everything
+  * Restrict sliver for amd64 and arm64
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Wed, 08 Jun 2022 21:00:37 +0200
+
+kali-meta (2022.3.4) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Add pocsuite3 to kali-linux-everything
+
+  [ Sophie Brun ]
+  * Replace empty and obsolete pkg qemu in kali-tools-hardware by
+    qemu-system-x86 and qemu-user
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 02 Jun 2022 11:07:08 +0200
+
+kali-meta (2022.3.3) kali-dev; urgency=medium
+
+  * Replace obsolete package vim-gtk by vim-gtk3
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 25 May 2022 09:17:20 +0200
+
+kali-meta (2022.3.2) kali-dev; urgency=medium
+
+  * bulk-extractor is only available on amd64 and arm64
+  * joplin is only available on arm64 and amd64
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 18 May 2022 11:35:48 +0200
+
+kali-meta (2022.3.1) kali-dev; urgency=medium
+
+  * Add architecture to some packages
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Fri, 13 May 2022 09:05:43 +0200
+
+kali-meta (2022.3.0) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Add missing tools to kali-everything
+  * Remove wmis as it breaks during installation
+  * Add bettercap-ui to kali-linux-everything
+
+  [ Ben Wilson ]
+  * Update wording for kali-linux-labs
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Wed, 11 May 2022 13:51:04 +0200
+
+kali-meta (2022.1.2) kali-dev; urgency=medium
+
+  * Add python3-pip & python3-virtualenv
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Tue, 12 Apr 2022 15:37:38 +0100
+
+kali-meta (2022.1.1) kali-dev; urgency=medium
+
+  * Add python-is-python3 to -headless for ease of use
+
+ -- Joseph O'Gorman <gamb1t@kali.org>  Thu, 03 Feb 2022 15:27:22 -0500
+
+kali-meta (2022.1.0) kali-experimental; urgency=medium
+
+  * Add Conflicts: wireplumber, Recommends: pipewire-media-session
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Thu, 16 Dec 2021 21:11:31 +0700
+
+kali-meta (2021.4.8) kali-dev; urgency=medium
+
+  * Move starkiller to -large and put back wordlists into -headless
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Wed, 01 Dec 2021 11:41:56 +0100
+
+kali-meta (2021.4.7) kali-dev; urgency=medium
+
+  [ Ben Wilson ]
+  * Add maltego-teeth to kali-linux-everything
+  * Add merlin
+  * Add bruteforce-wallet
+
+  [ Sophie Brun ]
+  * Remove python-is-python2 from Recommends
+
+  [ Arnaud Rebillout ]
+  * Move zaproxy, maltego and wordlists into kali-linux-large to reduce
+    images size
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Wed, 01 Dec 2021 08:28:21 +0100
+
+kali-meta (2021.4.6) kali-dev; urgency=medium
+
+  [ Ben Wilson ]
+  * maltego is a graphic tool
+  * Add spraykatz and wotmate
+  * Add netbase & gss-ntlmssp
+  * Switch to recommends for powershell support
+
+  [ Daniel Ruiz de Alegría ]
+  * Add kwin-style-kali to kali-desktop-kde
+  * Add onboard virtual-keyboard for Xfce's login
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Mon, 08 Nov 2021 15:56:56 +0700
+
+kali-meta (2021.4.5) kali-dev; urgency=medium
+
+  * Replace obsolete ksysguard with plasma-systemmonitor
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 04 Nov 2021 09:39:49 +0100
+
+kali-meta (2021.4.4) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Remove kwrite from Suggests as it is a dependency of kde-plasma-desktop
+  * Set xfce4-genmon-plugin as a dependency for kali-desktop-xfce
+  * Set xfce4-cpugraph-plugin as a dependency for kali-desktop-xfce
+  * Add xterm to kali-desktop-core as a fallback terminal-emulator
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Thu, 04 Nov 2021 15:00:58 +0700
+
+kali-meta (2021.4.3) kali-dev; urgency=medium
+
+  * Depend on cryptsetup-initramfs rather than cryptsetup
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Tue, 19 Oct 2021 22:20:15 +0700
+
+kali-meta (2021.4.2) kali-dev; urgency=medium
+
+  * Update kali-desktop-gnome package for gnome-shell 40:
+    - Remove gnome-shell-extension-workspaces-to-dock
+    - Replace gnome-shell-extension-desktop-icons with
+      gnome-shell-extension-desktop-icons-ng
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 13 Oct 2021 13:29:11 +0200
+
+kali-meta (2021.4.1) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Add libproxy1-plugin-webkit to kali-desktop-gnome
+  * Replace kwrite with kate for kali-desktop-kde
+  * Don't remove kwrite until kate shortcut is replaced in kali-theme
+  * Move kwrite to Suggests for kali-desktop-kde
+
+  [ Raphaël Hertzog ]
+  * Introduce kali-linux-firmware
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Thu, 07 Oct 2021 13:45:46 +0200
+
+kali-meta (2021.4.0) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Move librsvg2-common dependency to kali-themes
+  * Reduce bloat coming from gnome-core package
+  * Add libproxy1 to kali-desktop-gnome
+
+  [ Sophie Brun ]
+  * Replace g++-9 and gcc-9 by g++ and gcc in kali-linux-nethunter
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 15 Sep 2021 18:27:17 +0200
+
+kali-meta (2021.3.7) kali-dev; urgency=medium
+
+  * hosthunter not installable on armel because it requires chromium-driver
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 31 Aug 2021 08:46:14 +0200
+
+kali-meta (2021.3.6) kali-dev; urgency=medium
+
+  * Replace transitional package gnome-tweak-tool by gnome-tweaks. The
+    transitional package has been remove from Debian Testing
+
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 30 Aug 2021 11:24:01 +0200
+
+kali-meta (2021.3.5) kali-dev; urgency=medium
+
+  * ibombshell is only installable on amd64 (it requires powershell which is
+    only available in kali on amd64)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 26 Aug 2021 11:30:10 +0200
+
+kali-meta (2021.3.4) kali-dev; urgency=medium
+
+  * Add multiple tools to kali-tools-everything
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Wed, 25 Aug 2021 10:53:11 +0100
+
+kali-meta (2021.3.3) kali-dev; urgency=medium
+
+  * Change libapache2-mod-php7.3 to a non-versioned dependency: libapache2-mod-php
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 18 Aug 2021 09:02:44 +0200
+
+kali-meta (2021.3.2) kali-dev; urgency=medium
+
+  * Replace mlocate by plocate | mlocate: fixes 7264.
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 16 Aug 2021 09:35:24 +0200
+
+kali-meta (2021.3.1) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Remove kazam from kali-desktop-xfce suggests
+  * Remove video recorders from kali-desktop-* suggests
+
+  [ Re4son ]
+  * Merge all packages from "pkg_full" in NetHunter build script into
+    "kali-linux-nethunter"
+
+  [ Sophie Brun ]
+  * Add caldera in kali-linux-large
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Thu, 12 Aug 2021 18:03:09 +0200
+
+kali-meta (2021.3.0) kali-dev; urgency=medium
+
+  [ Ben Wilson ]
+  * Add comment about VI/VIM confusion
+
+  [ Daniel Ruiz de Alegría ]
+  * Remove kali-linux-nethunter dependency from kali-linux-everything
+
+  [ Sophie Brun ]
+  * Restrict aeskeyfind to arch amd64 et i386: see
+    https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=989179
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 09 Jul 2021 15:35:48 +0200
+
+kali-meta (2021.2.6) kali-dev; urgency=medium
+
+  * Revert "Set vim packages to match". We want a real vim a
+    kali-linux-headless.
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 28 May 2021 08:46:33 +0200
+
+kali-meta (2021.2.5) kali-dev; urgency=medium
+
+  * Restrict code-oss and ghidra to less arch and allow code install
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 21 May 2021 08:39:02 +0200
+
+kali-meta (2021.2.4) kali-dev; urgency=medium
+
+  [ Ben Wilson ]
+  * Update description about metapackages
+
+  [ Arnaud Rebillout ]
+  * Add packages created during this release cycle
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Thu, 20 May 2021 11:19:31 +0700
+
+kali-meta (2021.2.3) kali-dev; urgency=medium
+
+  * Revert "Install kali-tweaks"
+  * Add kali-tweaks to kali-linux-core
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Wed, 12 May 2021 22:25:20 +0700
+
+kali-meta (2021.2.2) kali-dev; urgency=medium
+
+  * Install kali-tweaks
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Tue, 11 May 2021 20:28:00 +0700
+
+kali-meta (2021.2.1) kali-dev; urgency=medium
+
+  * starkiller is only available for amd64
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 22 Apr 2021 09:03:26 +0200
+
+kali-meta (2021.2.0) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Add librsvg2-common as a dependency for xfce
+  * Move screen-recorders to suggests
+  * Remove space before comment
+  * Add dbus-x11 to xfce to allow running xfce's gui apps with sudo
+
+  [ Steev Klimaszewski ]
+  * kali-linux-headless: Recommend firmware-sof-signed
+
+  [ Ben Wilson ]
+  * Remove duplicates
+  * Removed duplicate wce
+  * Set vim packages to match
+  * Add FFUF, Powershell-Empire & Starkiller
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Mon, 19 Apr 2021 12:39:43 +0200
+
+kali-meta (2021.1.10) kali-dev; urgency=medium
+
+  * kali-desktop-core: Recommends += orca (Closes: #10)
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Wed, 10 Mar 2021 09:49:19 +0700
+
+kali-meta (2021.1.9) kali-dev; urgency=medium
+
+  * Add chromium to kali-linux-large
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Mon, 15 Feb 2021 10:02:25 +0000
+
+kali-meta (2021.1.8) kali-dev; urgency=medium
+
+  [ Ben Wilson ]
+  * Clean up - Fix comments & formats
+
+  [ Daniel Ruiz de Alegría ]
+  * Add xcape back as a dependency for Xfce
+
+  [ Arnaud Rebillout ]
+  * debhelper-compat = 13
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Mon, 15 Feb 2021 10:33:48 +0700
+
+kali-meta (2021.1.7) kali-dev; urgency=medium
+
+  * Replace gir1.2-appindicator3-0.1 with gir1.2-ayatanaappindicator3-0.1
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Sun, 24 Jan 2021 20:37:08 +0100
+
+kali-meta (2021.1.6) kali-dev; urgency=medium
+
+  * Drop rekall-core which is gone from Debian
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Sun, 24 Jan 2021 20:15:42 +0100
+
+kali-meta (2021.1.5) kali-dev; urgency=medium
+
+  * Add traceroute & telnet
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Wed, 20 Jan 2021 14:58:14 +0000
+
+kali-meta (2021.1.4) kali-dev; urgency=medium
+
+  * Remove kali-linux-headless from kali-linux-arm metapackage.
+
+ -- Steev Klimaszewski <steev@kali.org>  Mon, 18 Jan 2021 13:44:52 -0600
+
+kali-meta (2021.1.3) kali-dev; urgency=medium
+
+  * Add bind9-dnsutils (dig, nslookup etc)
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Wed, 13 Jan 2021 15:36:11 +0000
+
+kali-meta (2021.1.2) kali-dev; urgency=medium
+
+  * Add xcape to kali-desktop-xfce as Suggests
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Mon, 11 Jan 2021 11:55:40 +0100
+
+kali-meta (2021.1.1) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Remove qt5-gtk2-platformtheme
+
+  [ Raphaël Hertzog ]
+  * Add command-not-found to kali-linux-core
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Thu, 07 Jan 2021 18:09:30 +0100
+
+kali-meta (2021.1.0) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Update suggested panel plugins for kali-desktop-xfce
+  * Update kali-desktop-xfce for Xfce 4.16
+
+  [ Raphaël Hertzog ]
+  * Add xdg-utils to kali-desktop-core because we use it in many places
+  * Bump Standards-Version to 4.5.1
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Tue, 05 Jan 2021 13:32:08 +0100
+
+kali-meta (2020.4.8) kali-dev; urgency=medium
+
+  [ Re4son ]
+  * Add kali-legacy-wallpapers to nethunter
+  * Add dbus-x11 to NetHunter.
+
+  [ Raphaël Hertzog ]
+  * Add python2, python-is-python2 and offsec-awae-python2 to the Recommends
+    of kali-linux-headless. That way they are installed by default in most
+    images but they can be removed by the user.
+  * Replace kali-legacy-wallpapers by kali-wallpapers-2019.4 in
+    kali-linux-nethunter. We are moving the old wallpapers to a dedicated
+    package.
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 10 Nov 2020 14:28:44 +0100
+
+kali-meta (2020.4.7) kali-dev; urgency=medium
+
+  * Remove gnome-shell-extension-easyscreencast (it doesn't work with
+    gnome-shell 3.38)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 28 Oct 2020 16:41:23 +0100
+
+kali-meta (2020.4.6) kali-dev; urgency=medium
+
+  * Replace proxychains with proxychains4 (see 6724)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 19 Oct 2020 16:06:25 +0200
+
+kali-meta (2020.4.5) kali-dev; urgency=medium
+
+  * Remove obsolete volatitlity (Python 2 EOL). We can't replace it with
+    volatility3 because of license issues.
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 05 Oct 2020 16:08:53 +0200
+
+kali-meta (2020.4.4) kali-dev; urgency=medium
+
+  * Move git to Recommends in kali-linux-core
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 22 Sep 2020 23:03:40 +0200
+
+kali-meta (2020.4.3) kali-dev; urgency=medium
+
+  * Put vim-tiny in -core, but a more complete vim in -headless
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 22 Sep 2020 15:50:47 +0200
+
+kali-meta (2020.4.2) kali-dev; urgency=medium
+
+  [ Ben Wilson ]
+  * Add missing metapackages to kali-linux-everything and sort order to match
+  * Sort kali-linux-arm to match kali-linux-core
+  * Add missing packages to kali-linux-everything and removed duplicate ones
+  * Take vncserver out of kali-linux-core
+  * Move CLI programs to kali-linux-headless (kali-linux-default)
+  * Add more core tools
+
+  [ Raphaël Hertzog ]
+  * Rename kali-tools-headless into kali-linux-headless
+  * Depend on kali-defaults-desktop in kali-desktop-core
+  * Move kali-linux-headless to its logical place
+  * Change dependency chain: default -> headless -> core
+  * Trim down kali-linux-core by moving non-essential sysadmin tools to
+    -headless
+  * Move Recommends on firmware from -core to -headless too
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 22 Sep 2020 15:18:34 +0200
+
+kali-meta (2020.4.1) kali-dev; urgency=medium
+
+  [ Raphaël Hertzog ]
+  * Add lintian override file to not fail Gitlab CI
+
+  [ Sophie Brun ]
+  * Remove killerbee package (Python 2 EOL)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 02 Sep 2020 16:42:29 +0200
+
+kali-meta (2020.4.0) kali-dev; urgency=medium
+
+  * Remove obsolete package cookie-cadger
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 31 Aug 2020 11:50:23 +0200
+
+kali-meta (2020.3.11) kali-dev; urgency=medium
+
+  * Replace openvas by gvm
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 29 Jul 2020 12:02:21 +0200
+
+kali-meta (2020.3.10) kali-dev; urgency=medium
+
+  * Add new kali-desktop-i3-gaps metapackage.
+
+ -- Joseph O'Gorman <gamb1t@kali.org>  Mon, 20 Jul 2020 17:24:09 -0400
+
+kali-meta (2020.3.9) kali-dev; urgency=medium
+
+  * Make kali-desktop-core depend on fonts-noto-color-emoji
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 14 Jul 2020 10:05:44 +0200
+
+kali-meta (2020.3.8) kali-dev; urgency=medium
+
+  * hashcat-utils is available everywhere but armel
+
+ -- Steev Klimaszewski <steev@kali.org>  Mon, 13 Jul 2020 16:20:55 -0500
+
+kali-meta (2020.3.7) kali-dev; urgency=medium
+
+  * Remove sandsifter (still in Python 2)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 13 Jul 2020 13:57:32 +0200
+
+kali-meta (2020.3.6) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Add kali-hidpi-mode to kali-desktop-xfce package
+
+  [ Raphaël Hertzog ]
+  * Install zsh by default so that user can easily switch to it
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 10 Jul 2020 14:29:01 +0200
+
+kali-meta (2020.3.5) kali-dev; urgency=medium
+
+  * Hashcat is available everywhere but armel
+
+ -- Steev Klimaszewski <steev@kali.org>  Sun, 28 Jun 2020 12:45:16 -0500
+
+kali-meta (2020.3.4) kali-dev; urgency=medium
+
+  * Add GoBuster
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Fri, 26 Jun 2020 18:18:00 +0100
+
+kali-meta (2020.3.3) kali-dev; urgency=medium
+
+  * Remove flasm (obsolete package, unmaintained upstreami, removed from
+    Debian)
+  * Remove arachni (no longer maintained upstream and depends on phantomjs,
+    removed from Debian)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 12 Jun 2020 10:55:43 +0200
+
+kali-meta (2020.3.2) kali-dev; urgency=medium
+
+  * Remove ace-voip & cdpsnarf
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Wed, 03 Jun 2020 13:51:06 +0100
+
+kali-meta (2020.3.1) kali-dev; urgency=medium
+
+  * nmapsi4 is no longer available for armel
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 03 Jun 2020 10:14:33 +0200
+
+kali-meta (2020.3.0) kali-dev; urgency=medium
+
+  * Remove offsec-awae and offsec-pwk metapackages. They are now in another
+    source package: offsec-courses
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 28 May 2020 14:23:37 +0200
+
+kali-meta (2020.2.21) kali-dev; urgency=medium
+
+  * On amd64, add powershell to kali-linux-large
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 08 May 2020 08:19:52 +0200
+
+kali-meta (2020.2.20) kali-dev; urgency=medium
+
+  * Use gnome-terminal instead of qterminal for kali-desktop-gnome
+  * Remove desktop-base dependency from kali-desktop-kde
+  * Remove kali-desktop-base dependency from kali-desktop-kde
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Sat, 02 May 2020 18:09:26 +0200
+
+kali-meta (2020.2.19) kali-dev; urgency=medium
+
+  * Dradis is only available in amd64
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 24 Apr 2020 09:23:12 +0200
+
+kali-meta (2020.2.18) kali-dev; urgency=medium
+
+  * Add catfish to kali-desktop-xfce
+  * Add xkb and status-notifier plugins to kali-desktop-xfce
+  * Add xdg-user-dirs-gtk to kali-desktop-xfce
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Wed, 22 Apr 2020 04:33:35 +0200
+
+kali-meta (2020.2.17) kali-dev; urgency=medium
+
+  * Get rid of libaff4-utils, dropped from Debian a while ago
+  * Replace last Python 2 dependencies with their Python 3 counterparts
+  * Bump Standards-Version
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 10 Apr 2020 09:15:28 +0200
+
+kali-meta (2020.2.16) kali-dev; urgency=medium
+
+  [ Raphaël Hertzog ]
+  * Order alphabetically dependencies of kali-tools-forensics
+
+  [ Ben Wilson ]
+  * Remove duplicate tools from top10
+
+  [ Sophie Brun ]
+  * Remove old Python 2 packages: neopi and volafox
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 09 Apr 2020 16:51:09 +0200
+
+kali-meta (2020.2.15) kali-dev; urgency=medium
+
+  * Make sure that kali-linux-default pulls kali-tools-top10
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Mon, 30 Mar 2020 18:32:46 +0200
+
+kali-meta (2020.2.14) kali-dev; urgency=medium
+
+  [ Sophie Brun ]
+  * Remove Python 2 packages that have not switched to Python 3:
+    - webhandler
+    - golismero
+    - clusterd
+    - python-peepdf
+    - python-rfidiot
+    - bbqsql
+    - pyrit
+
+  [ Raphaël Hertzog ]
+  * Drop legacy metapackages, including kali-linux-light
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 30 Mar 2020 10:38:40 +0200
+
+kali-meta (2020.2.13) kali-dev; urgency=medium
+
+  * dbeaver x64 only
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Fri, 20 Mar 2020 17:35:58 +0000
+
+kali-meta (2020.2.12) kali-dev; urgency=medium
+
+  * Add dbeaver & zaproxy
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Fri, 20 Mar 2020 16:43:14 +0000
+
+kali-meta (2020.2.11) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Move qt5-style-plugins dependency from kali-themes, excepting KDE desktop
+  * Replace qt5-style-plugins with qt5ct
+
+  [ Raphaël Hertzog ]
+  * Don't install firmware-b43*-installer because they fail without network
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 03 Mar 2020 16:02:51 +0100
+
+kali-meta (2020.2.10) kali-dev; urgency=medium
+
+  * Fix package name: phpggc (not phpgcc)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 21 Feb 2020 11:20:44 +0100
+
+kali-meta (2020.2.9) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Update desktop specific default apps
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Thu, 20 Feb 2020 14:46:21 +0100
+
+kali-meta (2020.2.8) kali-dev; urgency=medium
+
+  * Add cloud-enum, photon & phpgcc
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Wed, 19 Feb 2020 21:04:17 +0000
+
+kali-meta (2020.2.7) kali-dev; urgency=medium
+
+  * offsec-* is used for monitoring packages
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Wed, 19 Feb 2020 20:58:06 +0000
+
+kali-meta (2020.2.6) kali-dev; urgency=medium
+
+  * Update offsec-pwk, kali-linux-large, kali-linux-default
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Wed, 19 Feb 2020 05:24:00 +0000
+
+kali-meta (2020.2.5) kali-dev; urgency=medium
+
+  * Update offsec-pwk to pwk2 packages
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Sun, 16 Feb 2020 15:11:14 +0000
+
+kali-meta (2020.2.4) kali-dev; urgency=medium
+
+  * Remove obsolete package fragroute
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 07 Feb 2020 10:32:03 +0100
+
+kali-meta (2020.2.3) kali-dev; urgency=medium
+
+  * Don't install firmware-ipw2x00, it fails to install non-interactively
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 31 Jan 2020 08:57:28 +0100
+
+kali-meta (2020.2.2) kali-dev; urgency=medium
+
+  * Don't install firmware-bcm80211 on arm
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Thu, 30 Jan 2020 22:40:56 +0100
+
+kali-meta (2020.2.1) kali-dev; urgency=medium
+
+  * Install popular firmware packages by default
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Thu, 30 Jan 2020 12:05:40 +0100
+
+kali-meta (2020.2.0) kali-dev; urgency=medium
+
+  * Force installation of policykit-1-gnome in Xfce
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Wed, 29 Jan 2020 09:15:22 +0100
+
+kali-meta (2020.1.14) kali-dev; urgency=medium
+
+  * Add gvfs-backends and gvfs-fuse to kali-desktop-xfce
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 28 Jan 2020 14:09:04 +0100
+
+kali-meta (2020.1.13) kali-dev; urgency=medium
+
+  * Add VPN plugins for NetworkManager to kali-desktop-xfce's Recommends
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 24 Jan 2020 09:32:41 +0100
+
+kali-meta (2020.1.12) kali-dev; urgency=medium
+
+  * Add qsslcaudit in meta-packages (replaces sslcaudit, see 5177)
+  * Use python3 modules when available
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 07 Jan 2020 10:57:17 +0100
+
+kali-meta (2020.1.11) kali-dev; urgency=medium
+
+  * Replace python-dfwinreg by python3-dfwinreg
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 06 Jan 2020 13:21:58 +0100
+
+kali-meta (2020.1.10) kali-dev; urgency=medium
+
+  * Replace sparta by legion (fork in Python 3 and Qt5)
+  * Replace python-faraday by faraday
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 03 Jan 2020 16:17:42 +0100
+
+kali-meta (2020.1.9) kali-dev; urgency=medium
+
+  * Add kali-root-login as Suggests
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Thu, 02 Jan 2020 09:31:19 +0100
+
+kali-meta (2020.1.8) kali-dev; urgency=medium
+
+  * Drop kali-root-login from the default installation
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Mon, 30 Dec 2019 16:01:30 +0100
+
+kali-meta (2020.1.7) kali-dev; urgency=medium
+
+  * Add kali-grant-root to kali-desktop-core
+  * Replace "ace" with "ace-voip"
+
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 27 Dec 2019 17:32:29 +0100
+
+kali-meta (2020.1.6) kali-dev; urgency=medium
+
+  * Add wallpapers packages
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Mon, 23 Dec 2019 13:19:30 +0000
+
+kali-meta (2020.1.5) kali-dev; urgency=medium
+
+  * burpsuite is only available for amd64
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 20 Dec 2019 16:50:41 +0100
+
+kali-meta (2020.1.4) kali-dev; urgency=medium
+
+  * Remove command-not-found
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Thu, 19 Dec 2019 21:03:26 +0000
+
+kali-meta (2020.1.3) kali-dev; urgency=medium
+
+  [ g0t mi1k ]
+  * Add command-not-found
+
+  [ Sophie Brun ]
+  * Remove python-halberd and python-binplist
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 17 Dec 2019 15:56:25 +0100
+
+kali-meta (2020.1.2) kali-dev; urgency=medium
+
+  * Replace python-dfvfs by python3-dfvfs
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 10 Dec 2019 09:40:37 +0100
+
+kali-meta (2020.1.1) kali-dev; urgency=medium
+
+  * Replace obsolete jad package by jadx and bytecode-viewer (see 5036)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 05 Dec 2019 09:24:46 +0100
+
+kali-meta (2020.1.0) kali-dev; urgency=medium
+
+  * Don't force synaptics driver for Xfce
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 29 Nov 2019 11:25:18 +0100
+
+kali-meta (2019.4.21) kali-dev; urgency=medium
+
+  * Xfce is spelled Xfce and not full uppercase (according to lintian)
+  * Add kali-undercover to kali-desktop-xfce Recommends
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 22 Nov 2019 08:08:24 +0100
+
+kali-meta (2019.4.20) kali-dev; urgency=medium
+
+  * Add xfce4-screenshooter to the Depends
+
+ -- Raphaël Hertzog <buxy@kali.org>  Thu, 14 Nov 2019 10:41:52 +0100
+
+kali-meta (2019.4.19) kali-dev; urgency=medium
+
+  * Add parole and ristretto to kali-desktop-xfce
+
+ -- Raphaël Hertzog <buxy@kali.org>  Thu, 14 Nov 2019 10:13:45 +0100
+
+kali-meta (2019.4.18) kali-dev; urgency=medium
+
+  [ Re4son ]
+  * Add xfce4-goodies & kazam to kali-desktop-xfce
+
+  [ Raphaël Hertzog ]
+  * Move xfce4-goodies and kazam to Recommends instead of Depends
+
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 11 Nov 2019 16:12:21 +0100
+
+kali-meta (2019.4.17) kali-dev; urgency=medium
+
+  * Remove obsolete package: zenmap (removed from Debian)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 08 Nov 2019 17:26:26 +0100
+
+kali-meta (2019.4.16) kali-dev; urgency=medium
+
+  * Add qterminal to all our desktop images (via kali-desktop-core)
+  * Adjust the package list for XFCE (via kali-desktop-xfce)
+    Add xcape and xfce4-whiskermenu-plugin, drop xfce4-terminal (replaced
+    by qterminal).
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Wed, 06 Nov 2019 21:55:22 +0100
+
+kali-meta (2019.4.15) kali-dev; urgency=medium
+
+  * Mark kali-desktop-core as "Arch: any"
+  * Add kali-desktop-base dependency on desktops without proper kali-themes integration
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 05 Nov 2019 12:17:14 +0100
+
+kali-meta (2019.4.14) kali-dev; urgency=medium
+
+  * Use midori instead of firefox-esr on armel
+  * Drop all references to desktop-base and use kali-themes instead
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 05 Nov 2019 11:06:58 +0100
+
+kali-meta (2019.4.13) kali-dev; urgency=medium
+
+  [ Re4son ]
+  * Replace nethunter's tightvcnserver with tigervnc-standalone-server
+
+  [ Sophie Brun ]
+  * Use new package kali-theme and remove old package gnome-theme-kali
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 01 Nov 2019 10:53:44 +0100
+
+kali-meta (2019.4.12) kali-dev; urgency=medium
+
+  [ g0t mi1k ]
+  * Replace nethunter's tightvcnserver with tigervnc-standalone-server
+
+  [ Sophie Brun ]
+  * Remove obsolete oclhashcat and replace it with hashcat in kali-tools-802-11
+  * Add hostapd-wpe in kali-tools-802-11 (see 5763)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 29 Oct 2019 10:05:38 +0100
+
+kali-meta (2019.4.11) kali-dev; urgency=medium
+
+  * Remove obsolete package: funkload
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 10 Oct 2019 13:49:48 +0200
+
+kali-meta (2019.4.10) kali-dev; urgency=medium
+
+  * Remove obsolete packages:
+    deblaze mana-toolkit powerfuzzer proxystrike creddump dnmap fimap findmyhash
+    ghost-phisher grabber hexorbase intersect maltego-teeth nfspy
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 01 Oct 2019 15:14:58 +0200
+
+kali-meta (2019.4.9) kali-dev; urgency=medium
+
+  * Move lvm2 from kali-linux-core to kali-desktop-live.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 30 Sep 2019 16:31:25 +0200
+
+kali-meta (2019.4.8) kali-dev; urgency=medium
+
+  * Remove obsolete packages:
+    automater bdfproxy blindelephant hackersh keimpx miranda pdgmail sandi
+    sslcaudit sslstrip u3-pwn ua-tester wifitap wol-e
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 19 Sep 2019 10:22:16 +0200
+
+kali-meta (2019.4.7) kali-dev; urgency=medium
+
+  * Drop libgnuradio-baz from kali-tools-sdr
+  * Drop gqrx transitional package
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 17 Sep 2019 14:19:46 +0200
+
+kali-meta (2019.4.6) kali-dev; urgency=medium
+
+  * Remove vfeed (upstream discontinued the vFeed Community Edition)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 10 Sep 2019 09:48:00 +0200
+
+kali-meta (2019.4.5) kali-dev; urgency=medium
+
+  * PowerShell is AMD64 only
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Sun, 08 Sep 2019 15:46:53 +0100
+
+kali-meta (2019.4.4) kali-dev; urgency=medium
+
+  * Add powershell
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Sun, 08 Sep 2019 14:41:29 +0100
+
+kali-meta (2019.4.3) kali-dev; urgency=medium
+
+  * Replace afl by afl++ (see issue 5645)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 05 Sep 2019 14:01:05 +0200
+
+kali-meta (2019.4.2) kali-dev; urgency=medium
+
+  * Fix offsec-awae
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Tue, 27 Aug 2019 17:20:29 +0100
+
+kali-meta (2019.4.1) kali-dev; urgency=medium
+
+  * Add amass and offsec-awae
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Thu, 22 Aug 2019 15:51:32 +0100
+
+kali-meta (2019.3.13) kali-dev; urgency=medium
+
+  * Remove obsolete giskismet: replaced by kismet-logtools in new Kismet
+    version.
+  * Remove obsolete and unmaintained mitmf
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 15 Aug 2019 09:38:48 +0200
+
+kali-meta (2019.3.12) kali-dev; urgency=medium
+
+  * Add ettercap-graphical to kali-linux-nethunter metapackage so that
+    it doesn't uninstall ettercap-graphical if it's installed, in favor
+    of ettercap-text-only
+
+ -- Steev Klimaszewski <steev@kali.org>  Sat, 27 Jul 2019 08:50:22 -0500
+
+kali-meta (2019.3.11) kali-dev; urgency=medium
+
+  * Remove guymager, beef-xss and radare2-cutter from armel
+
+ -- Steev Klimaszewski <steev@kali.org>  Fri, 26 Jul 2019 02:04:36 -0500
+
+kali-meta (2019.3.10) kali-dev; urgency=medium
+
+  [ Steev Klimaszewski ]
+  * Update package dependencies for armel/armhf/arm64 architectures
+
+  [ Raphaël Hertzog ]
+  * Remove apt-transport-https (apt supports https natively)
+
+ -- Steev Klimaszewski <steev@kali.org>  Wed, 24 Jul 2019 16:22:17 -0500
+
+kali-meta (2019.3.9) kali-dev; urgency=medium
+
+  [ Raphaël Hertzog ]
+  * Fix description of kali-linux-full
+  * Fixup/improve long descriptions
+  * Drop findutils and gzip from offsec-pwk as they are essential packages
+  * Bump Standards-Version to 4.3.0 and debhelper compat level to 12
+
+  [ Sophie Brun ]
+  * Remove pdfbook: obsolete package and it conflicts with new
+    textlive-extra-utils
+
+ -- Raphaël Hertzog <buxy@kali.org>  Tue, 09 Jul 2019 14:04:08 +0200
+
+kali-meta (2019.3.8) kali-dev; urgency=medium
+
+  * Fix i3 - dmenu and suckless-tools
+  * Remove top10 from kali-linux-light
+  * Switch to old default matching metapackage (kali-linux-large)
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Tue, 09 Jul 2019 11:01:35 +0100
+
+kali-meta (2019.3.7) kali-dev; urgency=medium
+
+  * limit copy-router-config and sslyze
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Mon, 08 Jul 2019 21:33:30 +0100
+
+kali-meta (2019.3.6) kali-dev; urgency=medium
+
+  * Don't request co-installation of conflicting packages (ettercap-graphical
+    vs ettercap-text-only, and arping vs iputils-arping).
+
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 08 Jul 2019 22:02:28 +0200
+
+kali-meta (2019.3.5) kali-dev; urgency=medium
+
+  * Close #2 - Fix dependencies
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Mon, 08 Jul 2019 20:19:30 +0100
+
+kali-meta (2019.3.4) kali-dev; urgency=medium
+
+  * Close #2 - Fix dependencies
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Mon, 08 Jul 2019 19:59:12 +0100
+
+kali-meta (2019.3.3) kali-dev; urgency=medium
+
+  * Metapackage refresh
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Mon, 08 Jul 2019 12:49:06 +0100
+
+kali-meta (2019.3.2) kali-dev; urgency=medium
+
+  [ Joseph O'Gorman ]
+  * Add lightdm to mate (Fixes: 5558)
+
+  [ Raphaël Hertzog ]
+  * Drop old workaround for a missing dependency on pcmanfm.
+  * Drop explicit dependency on xorg when we have a display manager
+    dependency.
+  * Add network-manager-gnome to kali-desktop-mate, similar to what
+    taks-mate-desktop has.
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 21 Jun 2019 09:01:15 +0200
+
+kali-meta (2019.3.1) kali-dev; urgency=medium
+
+  * Add kali-desktop-{mate,i3,e17}
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Sat, 15 Jun 2019 22:19:02 +0100
+
+kali-meta (2019.2.3) kali-dev; urgency=medium
+
+  * Add impacket-scripts package: links to useful impackets examples
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 13 Mar 2019 14:39:46 +0100
+
+kali-meta (2019.2.2) kali-dev; urgency=medium
+
+  * sslyze is no longer available for armhf and arm64 (its dependency nassl
+    doesn't compile for these archs)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 15 Feb 2019 11:37:45 +0100
+
+kali-meta (2019.2.1) kali-dev; urgency=medium
+
+  * Added inspectrum to kali-linux-sdr (https://bugs.kali.org/view.php?id=4841)
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Mon, 11 Feb 2019 07:07:24 +0000
+
+kali-meta (2019.2.0) kali-dev; urgency=medium
+
+  * Update my maintainer email
+  * Make kali-desktop-kde depends on sddm-theme-debian-elarun
+  * Remove iphone-backup-analyzer from kali-linux-forensic.
+    It's unmaintained upstream and is unlikely to be ever updated
+    for pyside2 (see https://bugs.kali.org/view.php?id=4978).
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 08 Feb 2019 10:35:35 +0100
+
+kali-meta (2019.1.1) kali-dev; urgency=medium
+
+  * Add haveged on kali-linux and kali-desktop-common to avoid problems due to
+    lack of entropy (see https://bugs.kali.org/view.php?id=4994).
+
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 23 Nov 2018 11:10:48 +0100
+
+kali-meta (2019.1.0) kali-dev; urgency=medium
+
+  * Add gnome-shell-extension-desktop-icons to replace removed feature in
+    Nautilus
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 09 Nov 2018 10:07:36 +0100
+
+kali-meta (2018.4.1) kali-dev; urgency=medium
+
+  * Remove deprecated and unmaintained vega.
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 11 Oct 2018 11:32:40 +0200
+
+kali-meta (2018.4.0) kali-dev; urgency=medium
+
+  * Remove magictree.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 21 Sep 2018 15:31:15 +0200
+
+kali-meta (2018.3.2) kali-dev; urgency=medium
+
+  * Remove http-tunnel (old package and depends on removed package php-mcrypt)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 20 Jul 2018 09:23:18 +0200
+
+kali-meta (2018.3.1) kali-dev; urgency=medium
+
+  * New upload to remove arm64 from beef-xss (problem in git repo)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 18 Jul 2018 09:43:02 +0200
+
+kali-meta (2018.3.0) kali-dev; urgency=medium
+
+  * Remove acccheck (unmaintained usptream and had security issues)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 13 Jul 2018 09:30:06 +0200
+
+kali-meta (2018.2.3) kali-dev; urgency=medium
+
+  * Remove arm64 from beef-xss since it doesn't support arm64.
+
+ -- Steev Klimaszewski <steev@kali.org>  Wed, 04 Jul 2018 03:49:32 -0500
+
+kali-meta (2018.2.2) kali-dev; urgency=medium
+
+  * Replace gnome-shell-extension-workspacestodock by
+    gnome-shell-extension-workspaces-to-dock
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 19 Jun 2018 12:13:56 +0200
+
+kali-meta (2018.2.1) kali-dev; urgency=medium
+
+  * Replace readpst (transitional package) with pst-utils
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 29 Mar 2018 09:24:12 +0200
+
+kali-meta (2018.2.0) kali-dev; urgency=medium
+
+  * Add xserver-xorg-input-synaptics as Depends on kali-desktop-xfce.
+    See https://bugs.kali.org/view.php?id=4553
+
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 23 Feb 2018 08:54:47 +0100
+
+kali-meta (2018.1.0) kali-dev; urgency=medium
+
+  * Remove obsolete package keepnote and imagemagick (added only for keepnote)
+    from kali-linux-full and replace it with cherrytree
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 25 Jan 2018 10:00:03 +0100
+
+kali-meta (2017.3.6) kali-dev; urgency=medium
+
+  * Removed exploitdb-papers & exploit-bin-sploits from kali-linux-all
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Wed, 03 Jan 2018 08:30:05 -0500
+
+kali-meta (2017.3.5) kali-dev; urgency=medium
+
+  * Added exploitdb-papers & exploit-bin-sploits
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Thu, 21 Dec 2017 11:40:14 -0500
+
+kali-meta (2017.3.4) kali-dev; urgency=medium
+
+  * Remove wvdial (not used anymore and removed from Debian)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 18 Dec 2017 11:26:10 +0100
+
+kali-meta (2017.3.3) kali-dev; urgency=medium
+
+  * Remove dissy (not used anymore and removed from Debian)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 20 Nov 2017 11:04:39 +0100
+
+kali-meta (2017.3.2) kali-dev; urgency=medium
+
+  * Replace veil-evasion by veil
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 20 Oct 2017 14:23:34 +0200
+
+kali-meta (2017.3.1) kali-dev; urgency=medium
+
+  * Replace peepdf by python-peepdf
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 03 Oct 2017 10:49:47 +0200
+
+kali-meta (2017.3.0) kali-experimental; urgency=medium
+
+  * Replace maltegoce and casefile by maltego
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 26 Sep 2017 10:59:14 +0200
+
+kali-meta (2017.2.1) kali-dev; urgency=medium
+
+  * Work-around a bad dependency in pcmanfm that broke the LXDE image
+    (FS #4221).
+
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 08 Sep 2017 15:57:00 +0200
+
+kali-meta (2017.2.0) kali-dev; urgency=medium
+
+  * Replace jsql with jsql-injection (renamed package)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 09 May 2017 14:53:02 +0200
+
+kali-meta (2017.1.5) kali-dev; urgency=medium
+
+  * Drop i386 for rainbowcrack. New version 1.7 is only for amd64
+  * Drop gnome-shell-extension-refreshwifi in kali-desktop-gnome.
+    gome-shell version >=3.22.2 has timely scans implemented (see debian bug
+    859902)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 11 Apr 2017 16:23:42 +0200
+
+kali-meta (2017.1.4) kali-dev; urgency=medium
+
+  * Add apt-transport-https and mlocate to the default installation.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 24 Mar 2017 15:09:23 +0100
+
+kali-meta (2017.1.3) kali-dev; urgency=medium
+
+  * Add plasma-nm in kali-desktop-kde
+  * kali-linux-full: replace arping by arping | iputils-arping to allow
+    co-installation of kali-linux-full and network-manager
+    (see bug 3568)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 16 Feb 2017 11:24:48 +0100
+
+kali-meta (2017.1.2) kali-dev; urgency=medium
+
+  * Replace gqrx with gqrx-sdr. And provide a transitional gqrx package.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 03 Feb 2017 14:48:51 +0100
+
+kali-meta (2017.1.1) kali-dev; urgency=medium
+
+  * Replace mysql-server by default-mysql-server in meta-packages
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 31 Jan 2017 14:42:55 +0100
+
+kali-meta (2017.1.0) kali-dev; urgency=medium
+
+  * Drop w3af from meta-packages
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 12 Jan 2017 14:45:02 +0100
+
+kali-meta (2016.3.2) kali-dev; urgency=medium
+
+  * Update beef-xss: not available for armel because of nodejs
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 08 Dec 2016 15:59:35 +0100
+
+kali-meta (2016.3.1) kali-dev; urgency=medium
+
+  * Update eyewitness: available only for i386 and amd64
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 11 Oct 2016 16:26:10 +0200
+
+kali-meta (2016.2.12) kali-dev; urgency=medium
+
+  * Drop rcconf and sysv-rc-conf from kali-linux. Those tools are System V
+    specific and we use systemd nowadays.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Tue, 30 Aug 2016 09:43:01 +0200
+
+kali-meta (2016.2.11) kali-dev; urgency=medium
+
+  * Third try with firefox-esr dependency. firefox-esr:any
+    is not usable until firefox-esr has been marked Multi-Arch: allowed.
+    Let's put firefox-esr:armhf as a real alternative.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Tue, 26 Jul 2016 10:31:47 +0200
+
+kali-meta (2016.2.10) kali-dev; urgency=medium
+
+  * Use firefox-esr:any as dependency to allow usage of another
+    architecture (like armhf on arm64). And use www-browser
+    instead of x-www-browser.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 22 Jul 2016 20:34:18 +0200
+
+kali-meta (2016.2.9) kali-dev; urgency=medium
+
+  * Add firefox-esr to kali-desktop-common to ensure we always
+    have a web browser installed.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 22 Jul 2016 13:03:36 +0200
+
+kali-meta (2016.2.8) kali-dev; urgency=medium
+
+  * Add ident-user-enum (Closes 0002976)
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Thu, 14 Jul 2016 16:26:23 -0400
+
+kali-meta (2016.2.7) kali-dev; urgency=medium
+
+  * Let kali-desktop-gnome conflict with xserver-xorg-input-synaptics so that
+    we fix GNOME 3.20 touchpad settings. See
+    https://bugs.kali.org/view.php?id=3332 for details.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 11 Jul 2016 16:41:00 +0200
+
+kali-meta (2016.2.6) kali-dev; urgency=medium
+
+  * Replace php5 by php and php5-mysql by php-mysql.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Sat, 02 Jul 2016 21:50:11 +0200
+
+kali-meta (2016.2.5) kali-dev; urgency=medium
+
+  * Drop creepy and multiforcer
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 27 Jun 2016 09:48:04 +0200
+
+kali-meta (2016.2.4) kali-dev; urgency=medium
+
+  * Drop old packages: dff, ratproxy and webshag*
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 11 May 2016 10:20:29 +0200
+
+kali-meta (2016.2.3) kali-dev; urgency=medium
+
+  * Add alternative "unar" to "unrar" for people who don't have non-free
+    enabled.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 25 Mar 2016 09:21:27 +0100
+
+kali-meta (2016.2.2) kali-dev; urgency=medium
+
+  * Replace maltego by maltegoce
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 25 Feb 2016 16:53:34 +0100
+
+kali-meta (2016.2.1) kali-dev; urgency=medium
+
+  * Added whois to kali-linux (close 3035)
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Wed, 03 Feb 2016 15:56:14 -0500
+
+kali-meta (2016.2.0) kali-dev; urgency=medium
+
+  * Drop inguma from kali-linux-full
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 29 Jan 2016 14:01:44 +0100
+
+kali-meta (2016.1.0) kali-dev; urgency=medium
+
+  * Add king-phisher to kali-linux-full.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Tue, 19 Jan 2016 13:22:59 +0100
+
+kali-meta (2015.3.11) kali-dev; urgency=medium
+
+  * Update metas to include set, msfpc and zerofree
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 15 Jan 2016 14:51:11 -0500
+
+kali-meta (2015.3.10) kali-dev; urgency=medium
+
+  * Replace waffit with wafw00f (bug 0002107)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 18 Dec 2015 09:47:12 +0100
+
+kali-meta (2015.3.9) kali-dev; urgency=medium
+
+  * Add exploitdb to kali-nethunter metapackage.
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 17 Dec 2015 13:34:16 -0500
+
+kali-meta (2015.3.8) kali-dev; urgency=medium
+
+  * Move openvas out of kali-full
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 04 Dec 2015 14:00:20 -0500
+
+kali-meta (2015.3.7) kali-dev; urgency=medium
+
+  * Restrict python-faraday to amd64/i386.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Tue, 24 Nov 2015 17:51:53 +0100
+
+kali-meta (2015.3.6) kali-dev; urgency=medium
+
+  * Rearrange some tools and introduce new ones to the full metapackage.
+
+ -- Mati Aharoni <muts@kali.org>  Sun, 15 Nov 2015 09:27:13 -0500
+
+kali-meta (2015.3.5) kali-dev; urgency=medium
+
+  * Add dbus-user-session to kali-desktop-common.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 13 Nov 2015 09:56:19 +0100
+
+kali-meta (2015.3.4) kali-dev; urgency=medium
+
+  * Add nethunter utils to kali-nethunter metapackage
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 11 Nov 2015 14:40:01 -0500
+
+kali-meta (2015.3.3) kali-dev; urgency=medium
+
+  * Add mfoc to kali-linux-nethunter.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 09 Nov 2015 16:13:13 +0100
+
+kali-meta (2015.3.2) kali-dev; urgency=medium
+
+  * Update kali-desktop-common to install xserver-xorg-legacy so that
+    Xorg works in VM where KMS does not work. We run as root by default,
+    the safety brought by root-less Xserver is not needed on Kali.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 06 Nov 2015 22:24:13 +0100
+
+kali-meta (2015.3.1) kali-dev; urgency=medium
+
+  * Update kali-desktop-kde to install sddm instead of kdm (which is gone from
+    Debian).
+
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 06 Nov 2015 16:25:01 +0100
+
+kali-meta (2015.3.0) kali-dev; urgency=medium
+
+  * Replace "rdd" with "safecopy" since rdd got dropped from Debian.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Thu, 03 Sep 2015 12:19:03 +0200
+
+kali-meta (3.1) kali-dev; urgency=medium
+
+  * Drop debian-installer-launcher from the live images.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Wed, 12 Aug 2015 14:47:59 +0200
+
+kali-meta (3.0) kali-dev; urgency=medium
+
+  * Replace md5deep with hashdeep.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Wed, 12 Aug 2015 14:32:03 +0200
+
+kali-meta (2.41) kali-dev; urgency=low
+
+  * Remove python-faraday from kali-full
+
+ -- Mati Aharoni <muts@kali.org>  Mon, 10 Aug 2015 21:21:55 -0400
+
+kali-meta (2.40) kali-dev; urgency=medium
+
+  * Add sparta to kali-linux-full.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Sun, 09 Aug 2015 20:34:28 +0200
+
+kali-meta (2.39) kali-dev; urgency=medium
+
+  * Add kali-linux-nethunter metapackage.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Sun, 09 Aug 2015 14:39:12 +0200
+
+kali-meta (2.38) kali-dev; urgency=medium
+
+  * Add libcanberra-gtk-module to Recommends of desktop meta-packages to avoid
+    annoying warnings in terminals.
+  * Conflicts with nautilus-open-terminal to get it removed on upgrade.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 24 Jul 2015 15:19:34 +0200
+
+kali-meta (2.37) kali-dev; urgency=medium
+
+  * Drop bluepot which is not working with the current Bluetooth stack.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 24 Jul 2015 09:29:44 +0200
+
+kali-meta (2.36) kali-dev; urgency=medium
+
+  * Mark python-faraday as available only on amd64/i386.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Thu, 23 Jul 2015 20:29:23 +0200
+
+kali-meta (2.35) kali-dev; urgency=low
+
+  * Adding missing tools to metapackages, reorganization
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 23 Jul 2015 10:48:56 -0400
+
+kali-meta (2.34) kali-dev; urgency=medium
+
+  * Mark shellter as only available on i386/amd64.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Thu, 23 Jul 2015 10:02:37 +0200
+
+kali-meta (2.33) kali-dev; urgency=medium
+
+  * Drop ikat from everywhere.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Thu, 23 Jul 2015 08:29:48 +0200
+
+kali-meta (2.32) kali-dev; urgency=low
+
+  * Version bump
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 22 Jul 2015 18:57:40 -0400
+
+kali-meta (2.31) kali-dev; urgency=low
+
+  * Metapackage cleanup
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 22 Jul 2015 17:41:39 -0400
+
+kali-meta (2.3) kali-dev; urgency=medium
+
+  * Drop metasploit from kali-linux-full and kali-linux-top10, keeping only
+    metasploit-framework.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Tue, 21 Jul 2015 13:54:01 +0200
+
+kali-meta (2.2) kali-dev; urgency=medium
+
+  * Replace xfce4-battery-plugin with xfce4-power-manager-plugins.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Wed, 15 Jul 2015 10:59:32 +0200
+
+kali-meta (2.1) kali-dev; urgency=medium
+
+  * Update kali-desktop-xfce to include gnome-theme-kali & xfce4-
+    terminal.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Wed, 08 Jul 2015 16:53:16 +0200
+
+kali-meta (2.0) kali-dev; urgency=medium
+
+  * Drop obsolete nautilus-open-terminal from kali-desktop-gnome.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 06 Jul 2015 20:53:56 +0200
+
+kali-meta (1.68) kali-dev; urgency=medium
+
+  * Add xfce4-battery-plugin to kali-desktop-xfce.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 06 Jul 2015 11:11:08 +0200
+
+kali-meta (1.67) kali-dev; urgency=medium
+
+  * Add gnome-shell-extension-workspacestodock in kali-desktop-gnome.
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 19 Jun 2015 08:47:30 +0200
+
+kali-meta (1.66) kali-dev; urgency=medium
+
+  * Add lightdm to kali-desktop-xfce.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 12 Jun 2015 15:29:29 +0200
+
+kali-meta (1.65) kali-dev; urgency=medium
+
+  [ Raphaël Hertzog ]
+  * Drop gnome-session-flashback from kali-desktop-gnome as we no longer
+    use it by default.
+
+  [ Sophie Brun ]
+  * Drop gnome-theme-eleganze from kali-desktop-gnome and replace it by new
+    package gnome-theme-kali.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Wed, 20 May 2015 10:04:09 +0200
+
+kali-meta (1.64) kali-dev; urgency=medium
+
+  * Modify kali-desktop-gnome to depend on new theme and GNOME Shell
+    extensions that are enabled by kali-defaults.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Tue, 19 May 2015 18:07:03 +0200
+
+kali-meta (1.63) kali-dev; urgency=medium
+
+  * Drop webshag is not maintained anymore (Closes 0002178)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 27 Mar 2015 10:05:01 +0100
+
+kali-meta (1.62) kali-dev; urgency=medium
+
+  * Add imagemagick to kali-linux-full for keepnote. It won't be needed
+    anymore when debian bug 781230 wil be closed. (Closes 0002179)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 26 Mar 2015 10:41:37 +0100
+
+kali-meta (1.61) kali-dev; urgency=medium
+
+  * Closes 0002180
+  * Remove bluemaho, isr-evilgrade, bing-ip2hosts, goofile, metagoofil,
+    dbpwaudit, fimap, webslayer, inundator, phrasendrescher, jd-gui
+  * Add inguma to kali-linux-all
+  * Add slowhttptest to kali-linux-web
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 25 Mar 2015 10:39:47 +0100
+
+kali-meta (1.60) kali-dev; urgency=medium
+
+  * Drop unetbootin as it got removed from Debian Jessie (see #775689).
+
+ -- Raphaël Hertzog <buxy@kali.org>  Tue, 10 Mar 2015 17:13:21 +0100
+
+kali-meta (1.59) kali-dev; urgency=medium
+
+  * Add meta-packages for kali-desktop-*. Update kali-desktop-gnome to
+    include gnome-session-flashback.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 20 Feb 2015 17:15:57 +0100
+
+kali-meta (1.58) kali-dev; urgency=medium
+
+  * drop depends to truecrypt as it's not in kali-dev
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 04 Dec 2014 15:08:57 +0100
+
+kali-meta (1.57) kali-dev; urgency=medium
+
+  * sync with changes in kali/stable.
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 06 Nov 2014 15:41:30 +0100
+
+kali-meta (1.56) kali-dev; urgency=medium
+
+  * Re-apply all changes required for kali-rolling (basically import
+    debian/control from version 1.51 + changes from 1.52).
+
+ -- Raphaël Hertzog <buxy@kali.org>  Thu, 21 Aug 2014 01:33:09 +0200
+
+kali-meta (1.55.22) kali; urgency=medium
+
+  * Replace distorm3 with python-distorm3 in kali-linux-forensic
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 06 Nov 2014 15:15:45 +0100
+
+kali-meta (1.55.21) kali; urgency=low
+
+  * Version bump.
+
+ -- Mati Aharoni <muts@kali.org>  Sun, 02 Nov 2014 20:53:01 -0500
+
+kali-meta (1.55.2) kali; urgency=low
+
+  * Remove cuckoo from forensic metapackage.
+
+ -- Mati Aharoni <muts@kali.org>  Sun, 02 Nov 2014 20:44:41 -0500
+
+kali-meta (1.55.1) kali; urgency=medium
+
+  * Replace hackrf-tools with hackrf.
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 21 Aug 2014 01:28:33 +0200
+
+kali-meta (1.55) kali; urgency=low
+
+  * Reverted changes to metapackages such as capstone, gr-iqbal, and a few more.
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 20 Aug 2014 18:06:51 -0400
+
+kali-meta (1.54) kali; urgency=medium
+
+  * Removed kali-linux-sdr from kali-linux-full
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 20 Aug 2014 15:10:54 -0600
+
+kali-meta (1.53) kali; urgency=medium
+
+  * Fixed hackrf issue in control file
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 20 Aug 2014 13:55:39 -0600
+
+kali-meta (1.52) kali; urgency=medium
+
+  * Added gdisk to kali-linux
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 20 Aug 2014 09:03:26 -0600
+
+kali-meta (1.51) kali-dev; urgency=medium
+
+  * Restrict sqldict to amd64/i386 in kali-linux-pwtools too.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Sat, 09 Aug 2014 09:07:36 +0200
+
+kali-meta (1.50) kali-dev; urgency=medium
+
+  * Drop depends libgnuradio-grextras and gr-scan in package kali-linux-sdr
+    as there is no version comptabile with guradio 3.7
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 08 Aug 2014 14:34:27 +0200
+
+kali-meta (1.49) kali-dev; urgency=medium
+
+  * Update depends with binaries names in debian:
+    - gr-osmosdr instead of libgnuradio-osmosdr-apps
+    - gr-iqbal instead of libgnuradio-iqbalance
+    - python-capstone instead of capstone
+  * debian/control: add missing specified arch on dependencies
+  * Update standard version
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 07 Aug 2014 14:32:01 +0200
+
+kali-meta (1.48) kali-dev; urgency=medium
+
+  * Replace the depends hackrf-tools with hackrf (it doesn't exist anymore)
+  * Drop depends to libewf1 and libcrafter
+  * Drop depends to pjproject. As it's a library it has no utility for the
+    user. The source package exists in debian but doesn't provide pjproject
+    binaries.
+  * Drop depends python-impacket-doc: it's now included in python-impacket
+  * Drop depends spidermonkey-bin: it doesn't exist anymore
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 06 Aug 2014 10:50:25 +0200
+
+kali-meta (1.47) kali; urgency=low
+
+  * Fix mislabeled packages in metas
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 07 Jun 2014 14:03:12 -0400
+
+kali-meta (1.46) kali; urgency=low
+
+  * Metapackages updated with new tools
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 04 Jun 2014 11:39:45 -0600
+
+kali-meta (1.45) kali; urgency=low
+
+  * Metapackages updated with recently added tools
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 19 Mar 2014 19:56:24 -0600
+
+kali-meta (1.44) kali; urgency=low
+
+  * Added arp-scan to kali-linux-full
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 12 Feb 2014 10:00:54 -0700
+
+kali-meta (1.43) kali; urgency=low
+
+  * Fixed error in sdr meta package
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 28 Jan 2014 13:16:50 -0700
+
+kali-meta (1.42) kali; urgency=low
+
+  * Added top10 and rfid meta packages
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 28 Jan 2014 12:36:48 -0700
+
+kali-meta (1.41) kali; urgency=low
+
+  * Created additional meta packages
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 27 Jan 2014 11:54:41 -0700
+
+kali-meta (1.40) kali; urgency=low
+
+  * Removed oclhashcat from kali-linux
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 22 Jan 2014 08:19:28 -0700
+
+kali-meta (1.39) kali; urgency=low
+
+  * Replaced oclhashcat-plus and -lite with oclhashcat
+
+ -- Devon Kearns <dookie@kali.org>  Fri, 17 Jan 2014 07:38:27 -0700
+
+kali-meta (1.38) kali; urgency=low
+
+  * Swap nc6 with netcat traditional
+
+ -- Mati Aharoni <muts@kali.org>  Mon, 13 Jan 2014 09:40:41 -0500
+
+kali-meta (1.37) kali; urgency=low
+
+  * Removed 64 bit ferret-sidejack from meta
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 08 Jan 2014 00:04:52 -0500
+
+kali-meta (1.36) kali; urgency=low
+
+  * Additional tools added to the default installation
+
+ -- Devon Kearns <dookie@kali.org>  Fri, 06 Dec 2013 09:13:03 -0700
+
+kali-meta (1.35) kali; urgency=low
+
+  * Version bump
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 04 Sep 2013 09:58:51 -0400
+
+kali-meta (1.34) kali; urgency=low
+
+  * Added kali-sdr to kali-full
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 04 Sep 2013 09:56:48 -0400
+
+kali-meta (1.33) kali; urgency=low
+
+  * Added kali-linux-sdr, and updated kali-linux-all with cuckoo
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 04 Sep 2013 09:24:15 -0400
+
+kali-meta (1.32) kali; urgency=low
+
+  * Add amd64/i386 rules to guymager and regripper
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 30 Aug 2013 09:02:15 -0400
+
+kali-meta (1.31) kali; urgency=low
+
+  * Drop xplico into all
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 29 Aug 2013 17:39:35 -0400
+
+kali-meta (1.30) kali; urgency=low
+
+  * Arranging kali metapackages, add missing tools.
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 29 Aug 2013 17:14:21 -0400
+
+kali-meta (1.29) kali; urgency=low
+
+  * Added polenum and enum4linux to kali-linux
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 29 Apr 2013 10:59:55 -0600
+
+kali-meta (1.28) kali; urgency=low
+
+  * Drop oclhashcat-lite & oclhashcat-plus from kali-linux-full as they are
+    dependencies of kali-linux already (and the dep was broken on armel/armhf
+    on kali-linux-full).
+
+ -- Raphaël Hertzog <buxy@kali.org>  Thu, 18 Apr 2013 11:06:08 +0200
+
+kali-meta (1.27) kali; urgency=low
+
+  * Added nasm to the list of depends for kali-linux
+
+ -- Devon Kearns <dookie@kali.org>  Fri, 12 Apr 2013 12:04:33 -0600
+
+kali-meta (1.26) kali; urgency=low
+
+  * Added wce (and ethtool) to kali-meta. BugID 111.
+
+ -- Mati Aharoni <muts@kali.org>  Mon, 18 Mar 2013 19:56:26 -0400
+
+kali-meta (1.25) kali; urgency=low
+
+  * Added armitage to the default tools for i386 and amd64 architectures
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 13 Mar 2013 04:59:35 -0600
+
+kali-meta (1.24) kali; urgency=low
+
+  * Removed pdfbook package
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 06 Mar 2013 08:47:12 -0500
+
+kali-meta (1.23) kali; urgency=low
+
+  * Removed rkhunter from kali-linux
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 02 Mar 2013 15:20:55 -0500
+
+kali-meta (1.22) kali; urgency=low
+
+  * Removed gnome-human from kali-meta
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 01 Mar 2013 20:47:29 -0500
+
+kali-meta (1.21) kali; urgency=low
+
+  * Added cadaver, ikat and oclhashcat to meta
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 28 Feb 2013 12:05:26 -0500
+
+kali-meta (1.2) kali; urgency=low
+
+  * Add framework2 to kali-linux.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Wed, 27 Feb 2013 17:19:45 +0100
+
+kali-meta (1.1) kali; urgency=low
+
+  * Add hashcat, hashcat-utils, maskprocessor and statsprocessor to
+    kali-linux.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 25 Feb 2013 20:36:00 +0100
+
+kali-meta (1.0) kali; urgency=low
+
+  * Add metasploit and python-rfidiot to kali-linux.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 25 Feb 2013 17:55:32 +0100
+
+kali-meta (0.1) kali; urgency=low
+
+  * Initial Release.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 18 Feb 2013 17:13:14 +0100

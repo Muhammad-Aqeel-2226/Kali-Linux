@@ -1,0 +1,2 @@
+# Yep we depend on python2.7-minimal, it's Ok
+depends-on-python-minimal Depends
